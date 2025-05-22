@@ -6,12 +6,20 @@ function App() {
 
   return (
     <>
-   <h3>Count {value} </h3>
+    <h3>Count {value} </h3>
    <button onClick={
     ()=>{
       setValue(value + 1);
     }
-   }>ADD</button>
+   }>Add</button> 
+
+   <h3>Count {value} </h3>
+   <button onClick={
+    ()=>{
+      setValue(value - 1);
+    }
+   }>Minus</button>
+
   </>
   )
 }
