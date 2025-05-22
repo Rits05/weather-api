@@ -9,9 +9,9 @@ function App() {
    <h3>Count {value} </h3>
    <button onClick={
     ()=>{
-      setValue(value + 1);
+      setValue(value - 1);
     }
-   }>ADD</button>
+   }>Minus</button>
   </>
   )
 }
