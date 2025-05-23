@@ -16,5 +16,5 @@ jobs:
      - name: Print Node.js version
        run: node -v || echo "Node is not installed yet"
 
-     - name: List project files
+     - name: List projects files
        run: ls -la
