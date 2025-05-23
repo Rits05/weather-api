@@ -17,6 +17,12 @@ function App() {
       setValue(value + 6);
     }
    }>ADD6</button>
+    <button onClick={
+       ()=>{
+      setValue(value + 4);
+    }
+   }>ADD4</button>
+
    <button onClick={
     ()=>{
       setValue(0);
